@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="slider()">
+<!-- header section starts  -->
+<header class="header">
+  <section class="flex">
+     <a href="#home" class="logo"><img src="images/logo1.png" alt=""></a>
+
+     <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#gallery">gallery</a>
+        <a href="#team">team</a>
+        <a href="#contact">contact</a>
+     </nav>
+
+     <div id="menu-btn" class="fas fa-bars"></div>
+
+  </section>
+
+</header>
+<!-- home section starts  -->
+
+<div class="home-bg" id="slideImg">
+
+  <section class="home" id="home">
+   
+     <div class="content">
+        <h3>Wood Work</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia, accusantium mollitia laudantium dolorum dolore.</p>
+        <a href="#about" class="btn">O NAMA</a>
+     </div>
+      <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  </section>
+</div>
+
+<!-- home section ends -->
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <div class="layer"></div>
+      <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3>Izrada po mjeri</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error similique id doloremque vitae impedit quibusdam esse voluptas sunt eos officiis natus, libero dicta nam quae. Consequatur similique corrupti veniam fugiat?</p>
+      
+   </div>
+   <div class="content">
+      <h3>Profesionalnost</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, nesciunt rem fugit doloribus blanditiis laudantium ad excepturi quidem asperiores cupiditate consectetur numquam facere nostrum neque vel mollitia, dicta fuga placeat!</p>
+      
+   </div>
+   <div class="image">
+      <div class="layer"></div>
+      <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+   </div>
+   <div class="image">
+      <div class="layer"></div>
+      <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+   </div>
+   <div class="content">
+      <h3>Dugogodisnje iskustvo</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, laborum aspernatur porro modi dicta, neque qui impedit sequi ex, consequatur ut! Magni laborum odio itaque minus pariatur nostrum dolor quod?</p>
+      
+   </div>
+
+
+
+</section>
+
+<!-- about section ends -->
+<!-- facility section starts  -->
+
+<section class="facility">
+   <div class="box-container">
+
+      <div class="box">
+       
+         <div class="content">
+            <h3>10+ godina rada</h3>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="content">
+            <h3>500+ proizvoda</h3>
+         </div>
+      </div>
+         
+      <div class="box">
+         <div class="content">
+            <h3>1000+  klijenata</h3> 
+         </div>
+      </div>
+         
+      
+
+      
+
+   </div>
+
+</section>
+
+<!-- facility section ends -->
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <h3>Galerija proizvoda</h3>
+   </div>
+
+   <div class="box-container">
+      <div class="image">
+         <div class="layer"></div>
+         <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+      </div>
+      <div class="image">
+         <div class="layer"></div>
+         <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+      </div>
+      <div class="image">
+         <div class="layer"></div>
+         <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+      </div>
+      <div class="image">
+         <div class="layer"></div>
+         <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+      </div>
+      <div class="image">
+         <div class="layer"></div>
+         <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+      </div>
+      <div class="image">
+         <div class="layer"></div>
+         <img src="images/carpenter-cutting-plank-by-circular-saw.jpg" alt="">
+      </div>
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <div class="heading">
+      <h3>contact us</h3>
+   </div>
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/Get in touch-bro.svg" alt="">
+      </div>
+
+      <div class="box-container">
+
+         <div class="box">
+            <i class="fas fa-envelope fa-4x"></i>
+            <h3>Nas Email</h3>
+            <p>testEmail@gmail.com</p>
+         </div>
+   
+         <div class="box">
+            <i class="fas fa-clock fa-4x"></i>
+            <h3>Radno vrijeme</h3>
+            <p>07:00 do 09:00</p>
+         </div>
+   
+         <div class="box">
+            <i class="fas fa-map-marker-alt fa-4x"></i>
+            <h3>Lokacija</h3>
+            <p>Sarajevo, Bosna i Hercegovina </p>
+         </div>
+   
+         <div class="box">
+            <i class="fas fa-phone fa-4x"></i>
+            <h3>Broj telefona</h3>
+            <p>+123-456-7890</p>
+         </div>
+   
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
